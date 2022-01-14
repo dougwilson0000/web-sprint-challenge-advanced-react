@@ -2,6 +2,19 @@ import { rest } from 'msw'
 
 const plantsData = [
   {
+    name: "Staghorn Fern",
+    id: 67148,
+    scientificName: "Platycerium bifurcatum",
+    difficulty: "medium",
+    light: "indirect",
+    img:"https://i.ibb.co/sK2VHD5/plant1.jpg",
+    sizes: ["small"],
+    watering: 2,
+    description:
+      "Originally from South Africa, Jade loves sun-drenched beaches, the occasional surf, and sandy soils. Too much water too often doesn't sit well with her, so maybe offer her a beer? (Please don't give your plants beer).",
+    price: 15,
+  },
+  {
     name: "Peperomia Rosso",
     id: 143,
     scientificName: "Peperomia caperata rosso",
