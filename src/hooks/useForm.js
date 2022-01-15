@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 
 const useForm = (obj) => {
-    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+    const [showSuccessMessage, setShowSuccessMessage] = useState(true);
     const [values, setValues] = useState(obj);
   
     const handleChanges = (e) => {
